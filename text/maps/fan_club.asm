@@ -90,6 +90,7 @@ ReceivedBikeVoucherText::
 
 ExplainBikeVoucherText::
 	db $0
+
 	para "ניתן להחליף את"
 	line "הקופון בעד אופניים!"
 
@@ -101,14 +102,14 @@ ExplainBikeVoucherText::
 	para "אז אין לי צורך"
 	line "באופניים!"
 
-	para "אני מקווה שאתה"
-	line "נהנה מרכיבה!"
+	para "אני מקווה שאתה אוהב"
+	line "לרכב!"
 	done
 
 FanClubNoStoryText::
-	text "אה. אתה מוזמן"
-	line "לחזור כשתרצה להקשיב"
-	cont "לסיפור שלי!"
+	text "הו, תחזור"
+	line "כשתרצה"
+	cont "לשמוע את הסיפור שלי!"
 	done
 
 FanClubChairFinalText::
@@ -133,14 +134,13 @@ _FanClubText6:: ; 9a948 (26:6948) ; female
 	done
 
 _FanClubText7:: ; 9a970 (26:6970)
-	text "בואו נקשיב כולנו"
-	line "בנימוס למאמנים"
-	cont "אחרים!"
+	text "בואו כולנו נקשיב"
+	line "בצורה מכובדת לשאר"
+	cont "המאמנים!"
 	done
 
 _FanClubText8:: ; 9a99d (26:699d)
-	text "אם מישהו משוויץ"
-	line "בפניך, תשוויץ"
-	cont "בחזרה!"
+	text "אם מישהו מתרברב,"
+	line "תחזיר לו גם!"
 	done
 
